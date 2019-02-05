@@ -1,6 +1,6 @@
 {
   "name": "ezs-ark",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ark dedicated statements form EZS",
   "directories": {
     "test": "test"
