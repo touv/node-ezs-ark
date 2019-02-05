@@ -10,9 +10,9 @@ This package cannot be used alone. EZS has to be installed.
 [use]
 plugin = ark
 
-[ark]
-param = A
-param = 1
+[arkify]
+naan = 12345
+subpublisher = BCD
 ```
 
 ## Installation
@@ -31,17 +31,19 @@ param = 1
 
 #### Table of Contents
 
--   [ark](#ark)
+-   [arkify](#arkify)
     -   [Parameters](#parameters)
 
 ### arkify
 
-Take `Object` object, and throw the ame object
+Take `Object` object, and throw the same object but with an ARK
 
 #### Parameters
 
 -   `data`  
 -   `feed`  
--   `param` **[String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** example (optional, default `noparameterid`)
+-   `target` **[String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** field name to insert ARK (optional, default `ark`)
+-   `subpublisher` **[String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)?** Subpublisher
+-   `naan` **[String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)?** NAAN
 
 Returns **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
